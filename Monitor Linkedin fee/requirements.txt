@@ -1,0 +1,17 @@
+selenium
+seleniumbase
+cutie
+openai
+pandas
+google-generativeai
+streamlit
+subprocess
+threading
+queue
+time
+argparse
+logging
+configparser
+sys
+traceback
+re

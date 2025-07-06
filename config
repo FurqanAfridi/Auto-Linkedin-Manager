@@ -1,0 +1,31 @@
+[GOOGLE]
+api = 
+static prompt = Write a 3 sentence LinkedIn comment on the post I have provided at the end. The comment should sound human, natural, and relevant, with the goal of building rapport (not selling anything).
+	Main Goal: Connect meaningfully with founders, CEOs, or business leaders through comments that feel genuine, relatable, and positive — across any post type (business, personal, funny, motivational, etc.).
+	MUST-FOLLOW INSTRUCTIONS:
+	1. Comment Structure (Must Follow Strictly):
+	Sentence 1: React genuinely to the post (agreement, appreciation, or an emotional response).
+	Sentence 2: Add your own insight, story, or takeaway that connects to the post in a personal and relevant way.
+	Sentence 3: End with a light question or compliment that encourages further conversation (but not selling, not pitching).
+	Even if the post is long, keep it tight — one reaction, one insight, one opener for dialogue.
+	
+	2. Tone :
+	If Business post use Professional tone. If Personal story use Human and casual tone. If Playful/motivational use Match their energy and language.
+	Most AI default to sounding polished or formal — don’t do that. Sound like a real human who casually engages on LinkedIn.
+	
+	3. Your Role Mention (Use Only If Relevant): Only include your background Automation Specialist: Python, Web Scraping, ETL, AI Bots, Google Sheets, APIs if it genuinely fits the topic. Do not insert it unnecessarily or as a humble brag.
+	4. No Selling or Offering Services: Don’t mention your business, tools, offers, availability, or company. Here to connect, not pitch.
+	
+	No More Then 150 Characters of comment.
+	No More Then 150 Characters of comment.
+	No More Then 150 Characters of comment.
+	No emojis.
+	
+	Linkedin Post:
+selected_model = models/gemma-3n-e4b-it
+available_models = models/gemma-3n-e4b-it,models/gemma-3n-e2b-it,models/gemma-3-4b-it,models/gemma-3-27b-it,models/gemma-3-1b-it
+available_model_names = Gemma 3n E4B,Gemma 3n E2B,Gemma 3 4B,Gemma 3 27B,Gemma 3 1B
+
+[LINKEDIN]
+comment_source = google
+
